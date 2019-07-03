@@ -129,7 +129,7 @@ class Contact extends Component {
                     <div className="col-12 md-9">
                         <Form onSubmit = {this.handleSubmit}>
                             <FormGroup row>
-                                <Label htmlfor="firstname" md={2}> First Name</Label>
+                                <Label htmlFor="firstname" md={2}> First Name</Label>
                                 <Col md={10}>
                                     <Input type="text" id="firstname" name="firstname" placeholder="First Name"
                                         value={this.state.firstname}
@@ -143,7 +143,7 @@ class Contact extends Component {
                                 </Col>
                             </FormGroup>
                             <FormGroup row>
-                                <Label htmlfor="lastname" md={2}> First Name</Label>
+                                <Label htmlFor="lastname" md={2}> First Name</Label>
                                 <Col md={10}>
                                     <Input type="text" id="lastname" name="lastname" placeholder="Last Name"
                                         value={this.state.lastname}
@@ -157,7 +157,7 @@ class Contact extends Component {
                                 </Col>
                             </FormGroup>
                             <FormGroup row>
-                                <Label htmlfor="telnum" md={2}>Contact Tel.</Label>
+                                <Label htmlFor="telnum" md={2}>Contact Tel.</Label>
                                 <Col md={10}>
                                     <Input type="tel" id="telnum" name="telnum" placeholder="Telephone No."
                                         value={this.state.telnum}
@@ -205,7 +205,7 @@ class Contact extends Component {
                                 </Col>
                             </FormGroup>
                             <FormGroup row>
-                                <Label htmlfor="feedback" md={2}>Your Feedback</Label>
+                                <Label htmlFor="feedback" md={2}>Your Feedback</Label>
                                 <Col md={10}>
                                     <Input type="textarea" id="message" name="message" rows="12"
                                         value={this.state.message}
