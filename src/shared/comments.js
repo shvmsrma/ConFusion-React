@@ -1,6 +1,4 @@
-export const COMMENTS = 
-[
-    {
+export const COMMENTS = [{
         id: 0,
         dishId: 0,
         rating: 5,
